@@ -1,0 +1,1 @@
+vk_password = "your_password"
