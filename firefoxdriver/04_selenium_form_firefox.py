@@ -6,6 +6,7 @@ from auth_data import instagram_password
 # options
 options = webdriver.FirefoxOptions()
 
+# user-agent
 options.set_preference("general.useragent.override", "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:84.0) Gecko/20100101 Firefox/84.0")
 
 driver = webdriver.Firefox(
